@@ -27,7 +27,6 @@ import java.util.Set;
 public class GlobalExceptionTranslator {
     private final Logger logger = LoggerFactory.getLogger(GlobalExceptionTranslator.class);
 
-
     @ExceptionHandler(MissingServletRequestParameterException.class)
     public <T> BaseResponse<T> handleError(MissingServletRequestParameterException e) {
         logger.warn("Missing Request Parameter", e);

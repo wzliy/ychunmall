@@ -11,4 +11,5 @@ public interface AccountRepo extends JpaRepository<Users, String> {
     List<Users> findAll();
 
     Users findUserByUsername(String name);
+
 }

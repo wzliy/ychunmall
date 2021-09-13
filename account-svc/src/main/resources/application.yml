@@ -1,6 +1,7 @@
 server:
   port: 8090
 
+
 spring:
   application:
     name: mall
@@ -9,3 +10,13 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+  config:
+    import: config/swagger.yml
+debug: true
+logging:
+  level:
+    org.springframework: info

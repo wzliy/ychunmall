@@ -1,0 +1,10 @@
+swagger:
+  title: account-service
+  description: 用户接口
+  serviceUrl: /api/account
+  contactName: zlwang
+  contactUrl: test
+  contactEmail: test
+  apiVersion: 1.0.1
+  groupName: account
+  basePackage: com.ychun.account

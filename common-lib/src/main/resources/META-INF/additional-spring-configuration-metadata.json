@@ -1,0 +1,50 @@
+{
+    "properties": [
+      {
+        "name": "swagger.title",
+        "type": "java.lang.String",
+        "description": "API名称."
+      },
+      {
+        "name": "swagger.description",
+        "type": "java.lang.String",
+        "description": "API描述."
+      },
+      {
+        "name": "swagger.servicerUrl",
+        "type": "java.lang.String",
+        "description": "API名称."
+      },
+      {
+        "name": "swagger.contactName",
+        "type": "java.lang.String",
+        "description": "API名称."
+      },
+      {
+        "name": "swagger.contactEmail",
+        "type": "java.lang.String",
+        "description": "API名称."
+      },
+      {
+        "name": "swagger.contactUrl",
+        "type": "java.lang.String",
+        "description": "API名称."
+      },
+      {
+        "name": "swagger.apiVersion",
+        "type": "java.lang.String",
+        "description": "API名称."
+      },
+      {
+        "name": "swagger.groupName",
+        "type": "java.lang.String",
+        "description": "API名称."
+      },
+      {
+        "name": "swagger.basePackage",
+        "type": "java.lang.String",
+        "description": "API名称."
+      }
+
+    ]
+}
