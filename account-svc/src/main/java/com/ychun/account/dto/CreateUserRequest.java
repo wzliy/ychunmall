@@ -1,4 +1,4 @@
-package com.ychun.account.model.dto;
+package com.ychun.account.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

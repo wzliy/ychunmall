@@ -16,7 +16,7 @@ spring:
     show-sql: true
   config:
     import: config/swagger.yml
-debug: true
+debug: false
 logging:
   level:
-    org.springframework: info
+    org.springframework: error

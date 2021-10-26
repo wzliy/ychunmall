@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Data
 @Entity
-public class Users {
+public class User {
     @Id
     @GenericGenerator(name = "system-uuid", strategy = "uuid")
     @GeneratedValue(generator = "system-uuid")
@@ -24,4 +24,6 @@ public class Users {
     private String email;
     private int sex;
     private Date birthday;
+    private String createUser;
+    private Date CreateTime;
 }
