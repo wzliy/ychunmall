@@ -3,13 +3,12 @@ package com.ychun.account.model;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Data
 @Entity
+@Table(name = "user")
 public class User {
     @Id
     @GenericGenerator(name = "system-uuid", strategy = "uuid")
@@ -21,9 +20,16 @@ public class User {
     private String password;
     private String face;
     private String mobile;
-    private String email;
     private int sex;
     private Date birthday;
+    private String email;
+    @Column(name = "create_user")
     private String createUser;
-    private Date CreateTime;
+    @Column(name = "create_time")
+    private Date createTime;
+    @Column(name = "update_user")
+    private String updateUser;
+    @Column(name = "update_time")
+    private Date updateTime;
+
 }
